@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "amqplib": "^0.8.0"
+  },
+  "name": "rabbitmq_project_js",
+  "version": "1.0.0",
+  "description": "A simple project using rabbitmq",
+  "main": "send.js",
+  "devDependencies": {},
+  "scripts": {
+    "start:producer": "node send.js",
+    "start:consumer": "node receive.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oybek-uzb/rabbitmq_project_js.git"
+  },
+  "keywords": [
+    "nodejs",
+    "rabbitmq",
+    "message-broker"
+  ],
+  "author": "Oybek Makhsudov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oybek-uzb/rabbitmq_project_js/issues"
+  },
+  "homepage": "https://github.com/Oybek-uzb/rabbitmq_project_js#readme"
+}
